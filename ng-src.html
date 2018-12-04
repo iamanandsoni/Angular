@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="srcmodule">
+<head>
+	<title>ng-scr attribute for source a path</title>
+	<script type="text/javascript" src="script/angular.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+</head>
+<body ng-controller="srccontroller">
+
+	<div>
+		Name : {{ country.name }}
+	</div>
+	<div>
+		Name : {{ country.capital }}
+	</div>
+	<div>
+		<img ng-src="{{ country.flag }}" alt="{{ country.name + ' Flag' }}">
+	</div>
+</body>
+</html>
